@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RaceScene/inuSpeed.cs">
+    <Files>
+      <File FileName="Assets/Scripts/RaceScene/inuSpeed.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RaceScene/run.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RaceScene/rakudaSpeed.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RaceScene/hitsujiSpeed.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RaceScene/TextScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RaceScene/doragonSpeed.cs" Line="108" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
