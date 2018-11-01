@@ -7,8 +7,7 @@ public class staff_menu : MonoBehaviour {
 	int a;
 	// Use this for initialization
 	void Start () {
-		a = 0;
-		PlayerPrefs.SetInt ("score", a);
+		
 		a=PlayerPrefs.GetInt ("score");
 		a += 1;
 		PlayerPrefs.SetInt ("score", a);
