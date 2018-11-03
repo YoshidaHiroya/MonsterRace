@@ -17,17 +17,17 @@ public class syougou : MonoBehaviour {
 	void Update () {
 		a = PlayerPrefs.GetInt ("score");
 		if (a == 1) {
-			text.text = "ふつう";
+			text.text = "弱い";
 		}
 		if (a == 2) {
-			text.text = "ちょっと強い";
+			text.text = "ふつう";
 		}
 		if (a == 3) {
-			text.text = "強い";
+			text.text = "ちょっと強い";
 		}
 
 		if (a == 4) {
-			text.text = "めっちゃ強い";
+			text.text = "強い";
 		}
 		if (a == 5) {
 			text.text = "最強";
