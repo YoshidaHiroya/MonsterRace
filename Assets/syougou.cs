@@ -30,6 +30,9 @@ public class syougou : MonoBehaviour {
 			text.text = "強い";
 		}
 		if (a == 5) {
+			text.text = "めっちゃ強い";
+		}
+		if (a == 6) {
 			text.text = "最強";
 		}
 	}
