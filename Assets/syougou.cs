@@ -17,7 +17,7 @@ public class syougou : MonoBehaviour {
 	void Update () {
 		a = PlayerPrefs.GetInt ("score");
 		if (a == 1) {
-			text.text = "ザコ";
+			text.text = "くそザコ";
 		}
 		if (a == 2) {
 			text.text = "ふつう";
