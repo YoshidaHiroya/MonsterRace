@@ -5,16 +5,16 @@ using UnityEngine.UI;
 public class iribeScript : MonoBehaviour {
 	Animator animator;
 	Rigidbody rb;
-	GameObject sasami;
-	GameObject sasami2;
-	GameObject sasami3;
+	GameObject good;
+	GameObject good2;
+	GameObject good3;
 	// Use this for initialization
 	void Start () {
 		animator = this.gameObject.GetComponent<Animator> ();
 		rb = this.gameObject.GetComponent<Rigidbody> ();
-		sasami = GameObject.Find ("sasami");
-		sasami2 = GameObject.Find ("sasami2");	
-		sasami3 = GameObject.Find ("sasami3");
+		good = GameObject.Find ("good");
+		good2 = GameObject.Find ("good2");	
+		good3 = GameObject.Find ("good3");
 
 	}
 	
@@ -39,8 +39,20 @@ public class iribeScript : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision collision){
 		if (collision.gameObject.tag == "sasami") {
-			sasami.GetComponent<Image> ().enabled = true;
+			good.GetComponent<Image> ().enabled = true;
+			Destroy (collision.gameObject);
+
+			if (collision.gameObject.tag == "sasami2") {
+				good2.GetComponent<Image> ().enabled = true;
+				Destroy (collision.gameObject);
 		}
+
+			if (collision.gameObject.tag == "sasami3") {
+				good3.GetComponent<Image> ().enabled = true;
+				Destroy (collision.gameObject);
 	}
 
 }
+	}
+}
+

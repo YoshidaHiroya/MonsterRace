@@ -54,6 +54,7 @@
      <Compile Include="Assets\iribeScript.cs" />
      <Compile Include="Assets\menutosyogo.cs" />
      <Compile Include="Assets\pointclearinu.cs" />
+     <Compile Include="Assets\sasamiCreate.cs" />
      <Compile Include="Assets\Scripts\Asobikata\Asobikata.cs" />
      <Compile Include="Assets\Scripts\Asobikata\menuScene\manu_to_asobikata.cs" />
      <Compile Include="Assets\Scripts\Asobikata\menuScene\manu_to_prerace.cs" />
