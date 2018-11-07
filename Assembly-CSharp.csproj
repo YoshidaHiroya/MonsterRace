@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\iribeScript.cs" />
      <Compile Include="Assets\menutosyogo.cs" />
      <Compile Include="Assets\pointclearinu.cs" />
      <Compile Include="Assets\Scripts\Asobikata\Asobikata.cs" />
@@ -61,21 +62,6 @@
      <Compile Include="Assets\Scripts\Asobikata\menuScene\menu_to_shougou.cs" />
      <Compile Include="Assets\Scripts\Asobikata\menuScene\point.cs" />
      <Compile Include="Assets\Scripts\Asobikata\modoru.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_100doragon.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_100histuji.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_100hito.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_100inu.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_100rakuda.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_10doragon.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_10hito.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_10hitsuji.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_10inu.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_10rakuda.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_1doragon.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_1hito.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_1hitsuji.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_1inu.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointbet\pointbet_1rakuda.cs" />
      <Compile Include="Assets\Scripts\PreRaceScene\pointclear\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\PreRaceScene\pointclear\pointcleardoragon.cs" />
      <Compile Include="Assets\Scripts\PreRaceScene\pointclear\pointclearhito.cs" />
@@ -83,12 +69,6 @@
      <Compile Include="Assets\Scripts\PreRaceScene\pointclear\pointclearrakuda.cs" />
      <Compile Include="Assets\Scripts\PreRaceScene\Pointput.cs" />
      <Compile Include="Assets\Scripts\PreRaceScene\Prerace_to_race.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\tyoshi\tyoshiput.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\tyoshi\tyoushidoragon.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\tyoshi\tyoushihito.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\tyoshi\tyoushihitsuji.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\tyoshi\tyoushiinu.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\tyoshi\tyoushirakuda.cs" />
      <Compile Include="Assets\Scripts\RaceScene\Cameraposition.cs" />
      <Compile Include="Assets\Scripts\RaceScene\doragonSpeed.cs" />
      <Compile Include="Assets\Scripts\RaceScene\ganbarebotan.cs" />
