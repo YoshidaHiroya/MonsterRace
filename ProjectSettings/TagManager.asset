@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Coin
   - sasami
+  - sasami2
+  - sasami3
   layers:
   - Default
   - TransparentFX

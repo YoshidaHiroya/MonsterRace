@@ -52,8 +52,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\iribeScript.cs" />
+     <Compile Include="Assets\menu_sasami.cs" />
      <Compile Include="Assets\menutosyogo.cs" />
-     <Compile Include="Assets\pointclearinu.cs" />
+     <Compile Include="Assets\sasami_menu.cs" />
      <Compile Include="Assets\sasamiCreate.cs" />
      <Compile Include="Assets\Scripts\Asobikata\Asobikata.cs" />
      <Compile Include="Assets\Scripts\Asobikata\menuScene\manu_to_asobikata.cs" />
@@ -63,13 +64,6 @@
      <Compile Include="Assets\Scripts\Asobikata\menuScene\menu_to_shougou.cs" />
      <Compile Include="Assets\Scripts\Asobikata\menuScene\point.cs" />
      <Compile Include="Assets\Scripts\Asobikata\modoru.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointclear\NewBehaviourScript.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointclear\pointcleardoragon.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointclear\pointclearhito.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointclear\pointclearhitsuji.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\pointclear\pointclearrakuda.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\Pointput.cs" />
-     <Compile Include="Assets\Scripts\PreRaceScene\Prerace_to_race.cs" />
      <Compile Include="Assets\Scripts\RaceScene\Cameraposition.cs" />
      <Compile Include="Assets\Scripts\RaceScene\doragonSpeed.cs" />
      <Compile Include="Assets\Scripts\RaceScene\ganbarebotan.cs" />
